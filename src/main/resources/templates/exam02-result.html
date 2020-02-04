@@ -5,8 +5,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<span th:text="${num1}">00</span>+<span th:text="${num2}">00</span>
-=<span th:text="${answer}"></span><br>
+<span th:text="${session.num1}">00</span>+<span th:text="${session.num2}">00</span>
+=<span th:text="${session.answer}"></span><br>
 
 <a href="exam02-result2.html" th:href="@{/exam02/result2}">次へ</a>
 </body>
